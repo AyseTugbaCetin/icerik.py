@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://www.milligazete.com.tr/haber/24487335/rahatsizlanan-mahir-polat-yeniden-silivriye-gonderildi'
+url = 'https://www.milligazete.com.tr/haber/24509377/erzincanda-firtina-catilari-ucurdu-elektrik-ve-telefon-direklerini-devirdi'
 
 def abc(sayfa_url):
     r = requests.get(sayfa_url)
